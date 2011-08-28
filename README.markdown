@@ -58,7 +58,7 @@ It's just different wording.  But it's important.
 So, I started looking for libraries that would give me a `Should()`-like syntax with NUnit but I didn't have much luck.  I found NBehave, but it offers more than I need and it required .NET 3.5 (and I want to be able to support .NET 2.0). 
 I also found some projects on github, but 1 had no code and another didn't implement many `Should()` methods
 
-I wanted a way to integrate nicely with NUnit's `Assert.That` contraints so that, out of the box, I should be able to write `5.Should(Be.EqualTo(5))` without implementing the `EqualTo` method myself, but just use NUnit's!
+I wanted a way to integrate nicely with NUnit's `Assert.That` constraints so that, out of the box, I should be able to write `5.Should(Be.EqualTo(5))` without implementing the `EqualTo` method myself, but just use NUnit's!
 
 So NUnit.Should was born.
 
